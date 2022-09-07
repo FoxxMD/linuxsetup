@@ -1,0 +1,13 @@
+# This file was created by Fancontrol-GUI, location: /etc/fancontrol
+INTERVAL=10
+DEVPATH=hwmon0=devices/platform/nct6775.656 hwmon1=devices/pci0000:00/0000:00:18.3 
+DEVNAME=hwmon0=nct6792 hwmon1=k10temp 
+FCTEMPS=hwmon0/pwm2=hwmon1/temp1_input hwmon0/pwm3=hwmon1/temp1_input 
+FCFANS=hwmon0/pwm2=hwmon0/fan2_input hwmon0/pwm3=hwmon0/fan3_input 
+MINTEMP=hwmon0/pwm2=42 hwmon0/pwm3=47 
+MAXTEMP=hwmon0/pwm2=70 hwmon0/pwm3=70 
+MINSTART=hwmon0/pwm2=255 hwmon0/pwm3=255 
+MINSTOP=hwmon0/pwm2=152 hwmon0/pwm3=166 
+MINPWM=hwmon0/pwm2=152 hwmon0/pwm3=166 
+MAXPWM=hwmon0/pwm2=207 hwmon0/pwm3=213 
+AVERAGE=hwmon0/pwm2=1 hwmon0/pwm3=1 

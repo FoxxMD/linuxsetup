@@ -1,0 +1,201 @@
+[org/gnome/desktop/interface]
+document-font-name='Sans 14'
+font-name='Ubuntu 14'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Yaru-dark'
+monospace-font-name='Ubuntu Mono 14'
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[org/gnome/desktop/peripherals/mouse]
+natural-scroll=false
+speed=-0.44117647058823528
+
+[org/gnome/desktop/session]
+idle-delay=uint32 600
+
+[org/gnome/desktop/sound]
+allow-volume-above-100-percent=false
+
+[org/gnome/desktop/wm/keybindings]
+maximize=@as []
+unmaximize=@as []
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,close'
+resize-with-right-button=false
+titlebar-font='Ubuntu Bold 14'
+
+[org/gnome/gedit/plugins]
+active-plugins=['time', 'modelines', 'filebrowser', 'docinfo', 'spell']
+
+[org/gnome/gedit/preferences/editor]
+scheme='oblivion'
+wrap-last-split-mode='word'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gnome-screenshot]
+border-effect='none'
+delay=5
+include-border=true
+include-pointer=true
+last-save-directory='file:///home/foxx/Pictures'
+
+[org/gnome/mutter]
+center-new-windows=false
+edge-tiling=false
+experimental-features=@as []
+workspaces-only-on-primary=false
+
+[org/gnome/mutter/wayland/keybindings]
+restore-shortcuts=['']
+
+[org/gnome/nautilus/list-view]
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency', 'starred', 'detailed_type']
+default-visible-columns=['name', 'size', 'date_modified', 'starred']
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+show-create-link=true
+
+[org/gnome/nautilus/window-state]
+initial-size=(1615, 1430)
+maximized=true
+sidebar-width=191
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Shift>F11'
+command='flameshot gui'
+name='Flameshot GUI'
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+hinting='slight'
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+appicon-margin=4
+appicon-padding=4
+available-monitors=[2, 0, 1]
+hotkeys-overlay-combo='TEMPORARILY'
+intellihide=false
+multi-monitors=true
+panel-anchors='{"0":"MIDDLE","1":"MIDDLE","2":"MIDDLE"}'
+panel-element-positions='{"0":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"centerMonitor"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}],"1":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"centerMonitor"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}],"2":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"centerMonitor"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}]}'
+panel-lengths='{"0":100,"1":100,"2":100}'
+panel-sizes='{"0":32,"1":32}'
+primary-monitor=2
+
+[org/gnome/shell/extensions/emoji-selector]
+recently-used=['🥺', '👁', '👄', '☹', '🤬', '😁', '👩\u200d🚒', '🔥', '🌤', '☝', '👀']
+
+[org/gnome/shell/extensions/nvidiautil]
+icons=true
+position=1
+settingsandsmiconfig=['inactive', 'active', 'inactive', 'inactive', 'inactive']
+
+[org/gnome/shell/extensions/org-lab21-putwindow]
+ignore-top-panel=1
+move-center-only-toggles=1
+put-to-center=['<Super>f']
+put-to-center-enabled=1
+put-to-corner-ne=['<Primary><Super>Right']
+put-to-corner-ne-enabled=1
+put-to-corner-nw=['<Primary><Super>Left']
+put-to-corner-nw-enabled=1
+put-to-corner-se=['<Primary><Shift><Super>Right']
+put-to-corner-se-enabled=1
+put-to-corner-sw=['<Primary><Shift><Super>Left']
+put-to-corner-sw-enabled=1
+put-to-side-n=['<Super>Up']
+put-to-side-n-enabled=1
+put-to-side-s=['<Super>Down']
+put-to-side-s-enabled=1
+
+[org/gnome/shell/extensions/screenshot]
+capture-delay=4000
+clipboard-action='set-image-data'
+enable-indicator=true
+enable-notification=true
+filename-template='{N}-{Y}{m}{d}{H}{M}{S}-{w}x{h}'
+imgur-enable-notification=true
+save-screenshot=false
+shortcut-select-area=['<Shift>F11']
+shortcut-select-window=['<Shift>F12']
+
+[org/gnome/shell/extensions/sound-output-device-chooser]
+ports-settings='{"version":3,"ports":[]}'
+
+[org/gnome/shell/extensions/tiling-assistant]
+auto-tile=['<Super>t']
+dynamic-keybinding-behaviour='Disabled'
+enable-tiling-popup=false
+tile-bottom-half=['<Super>Down']
+tile-bottomleft-quarter=['<Primary><Shift><Super>Left']
+tile-bottomright-quarter=['<Primary><Shift><Super>Right']
+tile-left-half=['<Super>Left']
+tile-maximize=['<Super>f']
+tile-right-half=['<Super>Right']
+tile-top-half=['<Super>Up']
+tile-topleft-quarter=['<Primary><Super>Left']
+tile-topright-quarter=['<Primary><Super>Right']
+window-gap=0
+
+[org/gnome/shell/extensions/vitals]
+alphabetize=false
+fixed-widths=false
+hot-sensors=['_processor_average_', '_memory_usage_', '__network-download_max__', '_temperature_tctl_']
+position-in-panel=1
+show-memory=true
+show-network=true
+show-storage=false
+show-system=false
+show-voltage=false
+
+[org/gnome/shell/keybindings]
+switch-to-application-1=['']
+switch-to-application-2=['']
+switch-to-application-3=['']
+switch-to-application-4=['']
+switch-to-application-5=['']
+switch-to-application-6=['']
+switch-to-application-7=['']
+switch-to-application-8=['']
+switch-to-application-9=['']
+toggle-application-view=['']
+toggle-overview=['']
+
+[org/gnome/shell/overrides]
+edge-tiling=false
+workspaces-only-on-primary=false
+
+[org/yorba/shotwell/preferences/export]
+constraint='DIMENSIONS'
+export-format-mode='SPECIFIED'
+export-metadata=true
+photo-file-format='JFIF'
+quality='HIGH'
+scale=2400
+
+[org/yorba/shotwell/preferences/window]
+direct-height=2075
+direct-maximize=false
+direct-width=3840
+
+[system/proxy]
+mode='none'
+
+[system/proxy/http]
+host=''
+port=0
+
+[system/proxy/https]
+host=''
+port=0
