@@ -61,6 +61,10 @@ https://www.reddit.com/r/archlinux/comments/k9dxgn/networkmanager_and_wireguard_
 
 
 https://www.reddit.com/r/archlinux/comments/k26vwu/wireguard_vpn_in_gnome/
+
+Note: config may differ from regular NetworkManager 
+* https://bbs.archlinux.org/viewtopic.php?id=274459
+* https://bbs.archlinux.org/viewtopic.php?id=276161
 ```bash
 yay -S networkmanager-wireguard-git
 ```
