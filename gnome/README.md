@@ -43,6 +43,8 @@ dconf load / < saved_settings.dconf
 
 # VPN
 
+https://wiki.archlinux.org/title/NetworkManager
+
 ## L2TP
 
 https://wiki.archlinux.org/title/Openswan_L2TP/IPsec_VPN_client_setup
