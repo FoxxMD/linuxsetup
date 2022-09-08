@@ -40,3 +40,27 @@ From home directory, to restore
 ```bash
 dconf load / < saved_settings.dconf
 ```
+
+# VPN
+
+## L2TP
+
+https://wiki.archlinux.org/title/Openswan_L2TP/IPsec_VPN_client_setup
+
+```bash
+yay -S networkmanager-l2tp strongswan
+systemctl enable --now strongswan.service
+```
+
+## Wireguard
+
+https://wiki.archlinux.org/title/WireGuard
+https://wiki.archlinux.org/title/User:Cmsigler/Wireguard_Configuration_Guide
+
+https://www.reddit.com/r/archlinux/comments/k9dxgn/networkmanager_and_wireguard_connection/
+
+
+https://www.reddit.com/r/archlinux/comments/k26vwu/wireguard_vpn_in_gnome/
+```bash
+yay -S networkmanager-wireguard-git
+```
