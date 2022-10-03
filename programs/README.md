@@ -18,32 +18,3 @@
 | [Systemdgenie](https://github.com/KDE/systemdgenie)                                                                                                  | GUI for managing systemd                |              |
 | [Dconf editor](https://wiki.gnome.org/Apps/DconfEditor)                                                                                              | low-level gnome settings editor         |              |
 
-# Firefox
-
-https://wiki.archlinux.org/title/firefox
-
-# Hardware Acceleration
-
-https://wiki.archlinux.org/title/firefox#Hardware_video_acceleration
-
-Install driver for using nvidia CUDA for acceleration
-
-```bash
-yay -S libva-nvidia-driver
-```
-
-[Set `about:config` options](https://github.com/elFarto/nvidia-vaapi-driver/#firefox)
-
-https://wiki.archlinux.org/title/Desktop_entries#Modify_environment_variables
-
-Copy system-wide `/usr/share/applications/firefox.desktop` to `~/.local/share/applications` and then modify `Exec` like so:
-
-```
-Exec=env LIBVA_DRIVER_NAME="nvidia" MOZ_DISABLE_RDD_SANDBOX=1 /usr/lib/firefox/firefox %u
-```
-Then run 
-
-```
-update-desktop-database ~/.local/share/applications
-```
-So system gets the updated entry and restart firefox, if open.
