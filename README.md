@@ -5,6 +5,7 @@ A combination of resources and checklists I use to keep track of linux environme
 * Peripherals
   * [Mouse (G305)](/peripherals/g305.md)
   * [Keyboard (Keychron K2)](/peripherals/keychron.md)
+  * [Printer (HP LaserJet Pro MFP M127fw)](/peripherals/printer/README.md)
 
 # TODO Document Environment
 
