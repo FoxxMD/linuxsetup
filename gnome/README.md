@@ -70,3 +70,10 @@ Note: config may differ from regular NetworkManager
 ```bash
 yay -S networkmanager-wireguard-git
 ```
+
+## Slack
+
+On wayland the AUR `slack-desktop` package does not work for screen sharing. Instead there is a working, pinned, version of slack on flathub that can be used for now:
+
+https://github.com/flathub/com.slack.Slack/issues/101#issuecomment-1523302824
+https://aur.archlinux.org/packages/slack-desktop-wayland#comment-911902
