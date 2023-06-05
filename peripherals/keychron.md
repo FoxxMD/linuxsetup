@@ -1,4 +1,6 @@
-QOL improvements for using the [Keychron K2](https://www.keychron.com/products/keychron-k2-hot-swappable-wireless-mechanical-keyboard) BT keyboard on linux
+# [Keychron K2](https://www.keychron.com/products/keychron-k2-hot-swappable-wireless-mechanical-keyboard)
+
+* [Manual](https://www.keychron.com/pages/k2-user-manual-1)
 
 # Fixing FN Keys
 
