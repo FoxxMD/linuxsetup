@@ -1,5 +1,5 @@
 
-|                                                                         App                                                                          |               Description               | Requirements |
+| App                                                                                                                                                  | Description                             | Requirements |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|--------------|
 | [Tilix](https://gnunn1.github.io/tilix-web/)                                                                                                         | Tiling terminal                         |              |
 | [Flameshot](https://flameshot.org/)                                                                                                                  | Screenshot utility                      |              |
@@ -17,4 +17,5 @@
 | [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)                                                                              | To manager permissions for flatpak apps |              |
 | [Systemdgenie](https://github.com/KDE/systemdgenie)                                                                                                  | GUI for managing systemd                |              |
 | [Dconf editor](https://wiki.gnome.org/Apps/DconfEditor)                                                                                              | low-level gnome settings editor         |              |
+| [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)                                                                                  | Integrates AppImages into system        |              |
 
