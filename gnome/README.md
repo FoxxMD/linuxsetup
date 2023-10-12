@@ -4,11 +4,13 @@ Currently using 3.36, should be able to upgrade to gnome 42
 
 # Extensions
 
+[Gnome Extensions CLI](https://github.com/essembeh/gnome-extensions-cli) For easy updating/search/install without having to use extensions website
+
 | Extension                                                                                                                 | Description                               | Requirements      |
 |---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|-------------------|
 | [Dash To Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)                                               | Moves dash into main panel like icon tray | Shell 42 or older |
 | [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)                                    | Adds clipboard indicator to panel         | Shell 42 or older |
-| [Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/)                                             | Emojis in dash                            | Shell 42 or older |
+| [Emoji Selector](https://github.com/FelipeFTN/emoji-copy)                                                                 | Emojis in dash                            | Shell 42 or older |
 | [Reorder workspaces](https://extensions.gnome.org/extension/3685/reorder-workspaces/)                                     |                                           | Shell 42 or older |
 | [Sound input/output chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)                     |                                           | Shell 42 or older |
 | [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)                         |                                           | Shell 42 or older |
