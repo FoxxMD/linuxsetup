@@ -18,4 +18,5 @@
 | [Systemdgenie](https://github.com/KDE/systemdgenie)                                                                                                  | GUI for managing systemd                |              |
 | [Dconf editor](https://wiki.gnome.org/Apps/DconfEditor)                                                                                              | low-level gnome settings editor         |              |
 | [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)                                                                                  | Integrates AppImages into system        |              |
+| [Tailspin](https://github.com/bensadeh/tailspin)                                                                                                     | Highlighting for logs                   |              |
 
