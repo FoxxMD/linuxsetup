@@ -1,6 +1,6 @@
 
 | App                                                                                                                                                  | Description                             | Requirements |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|--------------|
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ------------ |
 | [Tilix](https://gnunn1.github.io/tilix-web/)                                                                                                         | Tiling terminal                         |              |
 | [Flameshot](https://flameshot.org/)                                                                                                                  | Screenshot utility                      |              |
 | [Barrier](https://github.com/debauchee/barrier)                                                                                                      | KVM                                     |              |
@@ -19,4 +19,6 @@
 | [Dconf editor](https://wiki.gnome.org/Apps/DconfEditor)                                                                                              | low-level gnome settings editor         |              |
 | [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)                                                                                  | Integrates AppImages into system        |              |
 | [Tailspin](https://github.com/bensadeh/tailspin)                                                                                                     | Highlighting for logs                   |              |
+| [lnav](https://github.com/tstack/lnav)                                                                                                               | Log viewer                              |              |
+| [sysz](https://github.com/joehillen/sysz)                                                                                                            | systemd TUI                             |              |
 
